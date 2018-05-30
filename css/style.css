@@ -1,4 +1,4 @@
-*{
+/* *{
 	margin: 0;
 	padding: 0;
 }
@@ -21,7 +21,7 @@ font-size:48px;
 .col-sm-4{
 	background-color: black;
 	color: lightblue; 
-}
+}*/
 .parallax { 
     background-image: url("../images/hero.jpg");
     height: 800px; 
@@ -31,7 +31,7 @@ font-size:48px;
     background-size: cover;
 }
 
-.content{
+/*.content{
 	margin: 5px;
 	height: 100%;
 	background-color: lightgrey;
@@ -48,7 +48,6 @@ font-size:48px;
 	background-position: center;
 	width: 20%;
 	height: 400px;
-	/*object-fit: contain;*/
 	float: right;
 }
 
@@ -83,4 +82,5 @@ li {
 
 br{
 	clear: both;
-}
+} 
+*/
