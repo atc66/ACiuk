@@ -3,21 +3,26 @@
 <html lang="en">
 
 <head>
+	<title>Andrew Ciukurescu</title>
 	<meta charset="utf-8"> 
-	<title>
-		Andrew Ciukurescu
-	</title>
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+	
+	<!-- Font Awesome -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  	<!-- Google Fonts -->
   	<link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+  	<!-- DevIcons -->
+  	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+  	<!-- My CSS -->
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  	<!-- Bootstrap -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-	</script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	
 </head>
 
 <body>
@@ -28,7 +33,7 @@
 	      		<a class="navbar-brand" >Andrew Ciukurescu</a>
 	    	</div>
 	    	<ul class="nav navbar-nav">
-	      		<li><a href="#about-me">About</a></li>
+	      		<li><a href="#about-link">About</a></li>
 	      		<li><a href="#project-1">Projects</a></li>
 	      		<li><a href="#contact">Contact</a></li>
 	    	</ul>
@@ -38,21 +43,43 @@
 	<div class="parallax">
 	</div>
 
-	<div id="about-me"></div>
 	<div class="content" >
 		<div class="mypic">
 		</div>
-		<div class="about-content" >
-		 	<p class="about-content">We all have that moment with our friends where someone suggests a great app idea, but then know one knows what to do next. This is why I got into coding, I've missed being creative with my hands. I recently finished a 12 week web development intensive bootcamp in Philadelphia, and I look forward to the next steps in my career.</p>
+		<div class="about-content" id="about-link" >
+		 	<p class="about-content">We all have that moment with our friends where someone suggests a great app idea, but then no one knows what to do next. This is why I got into coding, I've missed being creative with my hands. I wanted to be the type of person that takes control of their ideas, and produces them. I recently finished a 12 week web development intensive bootcamp in Philadelphia, and I look forward to the next steps in my career.</p>
+		 	<div class="codeIcons">
+		 		<h3 class="heading">Skills</h3>
+				<ul> 
+					<li><i class="devicon-html5-plain-wordmark colored"></i></li>
+					<li><i class="devicon-css3-plain-wordmark colored"></i></li>
+					<li><i class="devicon-sass-original colored"></i></li>
+					<li><i class="devicon-javascript-plain colored"></i></li>
+					<li><i class="devicon-ruby-plain-wordmark colored"></i></li>
+					<li><i class="devicon-rails-plain-wordmark colored"></i></li>
+					<li><i class="devicon-git-plain-wordmark colored"></i></li>
+					<li><i class="devicon-github-plain-wordmark"></i></li>
+					<li><i class="devicon-heroku-plain-wordmark colored"></i></li>
+				</ul>
+				<h4 class="heading">Some experience with:</h4>
+				<ul>
+					<li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+					<li><i class="devicon-mongodb-plain-wordmark colored"></i></li>
+					<li><i class="devicon-nodejs-plain-wordmark colored"></i></li>
+					<li><i class="devicon-jquery-plain-wordmark colored"></i></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
 	<br>
-
+	<br>
+	<br>
 	<div class="content"> 
+	 	<h2  id="project-1">Some of my Projects</h2>
 		<div class="mypic2">
 		</div>
-		<div class ="findwater" id="project-1">
+		<div class ="findwater">
 			<p class="about-content">FindWater is a web based application that I decided to write after training for the Philadelphia Half-Marathon. When running I never carry cash, credit cards, or a water bottle. So I either finish my runs in a distance where I don't need a drink of water, or I plan my routes around where I know there are water fountains. But what if there was a resource that mapped locations of where you can get free water? FindWater was written with Ruby on Rails, and integrates the Google Maps API allowing users to store locations on the map of where to get water.</p>
 			
 			<a href="https://github.com/atc66/FindWater"><i class="fa fa-github-square" ></i></a>
@@ -61,8 +88,6 @@
 		</div>
 	</div>
 	<br>
-
-	<div class="content">
 		<div class ="sports-tracker">
 			<p class="about-content">Sports Tracker was a collaborative project, that clones sports webpage but allows users to submit photos of themselves at the game. SportsTracker was written with Ruby on Rails, and integrated the mysportsfeed RESTful API to gather the statistical information about the chosen event.</p>
 			<a href="https://github.com/jjh5166/sports_tracker"><i class="fa fa-github-square" ></i></a>
@@ -72,8 +97,9 @@
 
 	<br>
 
-	<div class="contact" id="contact">
+	<div class="content" id="contact">
 		<div>
+			<h1>Connect with Me!</h1>
 			<a href="https://www.linkedin.com/in/andrewciukurescu/"><i class="fa fa-linkedin-square"></i></a>
 			<a href="https://www.github.com/atc66"><i class="fa fa-github-square " id="contactLinkedin" ></i></a>
 			<a href="mailto:andrewciukurescu@gmail.com?subject=Connect From Portfolio"><i class="fa fa-envelope-o"></i></a>
