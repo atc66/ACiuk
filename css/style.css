@@ -1,27 +1,4 @@
-/* *{
-	margin: 0;
-	padding: 0;
-}
 
-.fa-github-square {
-	font-size:24px;
-	color:blue
-}
-
-.fa-linkedin-square {
-	font-size:48px;
-	color:blue;
-}
-.fa-envelope-o{
-font-size:48px;
-}
-#contactLinkedin{
-	font-size:48px;
-}
-.col-sm-4{
-	background-color: black;
-	color: lightblue; 
-}*/
 .parallax { 
     background-image: url("../images/hero.jpg");
     height: 800px; 
@@ -31,41 +8,8 @@ font-size:48px;
     background-size: cover;
 }
 
-/*.content{
-	margin: 5px;
-	height: 100%;
-	background-color: lightgrey;
-}
-.mypic{
-	background-image: url("../images/logo.png");
-	background-position: center;
-	width: 25%;
-	height: 500px;
-	float: left;
-}
-.mypic2{
-	background-image: url("../images/findwater.png");
-	background-position: center;
-	width: 20%;
-	height: 400px;
-	float: right;
-}
-
-.about-content{
-	width: 72.5%;
-	height: 100%;
-	margin: 10px;
-	display: inline-block;
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-}
-
 .codeIcons{
 	display: inline;
-}
-
-.heading{
-	text-align: center;
 }
 
 ul {
@@ -80,7 +24,6 @@ li {
 	margin: 0 5px;
 }
 
-br{
-	clear: both;
-} 
-*/
+.heading{
+	text-align: center;
+}
