@@ -1,4 +1,3 @@
-
 .parallax { 
     background-image: url("../images/hero.jpg");
     height: 800px; 
@@ -26,4 +25,13 @@ li {
 
 .heading{
 	text-align: center;
+}
+
+.fa {
+	display: inline;
+	font-size: 400%;
+}
+
+.colored{
+	font-size: 500%;
 }
